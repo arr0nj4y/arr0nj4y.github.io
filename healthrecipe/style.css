@@ -1,0 +1,70 @@
+
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: none;
+    font-family: Arial;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 35px;
+    color: black;
+}
+
+.image{
+    height: 150px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+#cook-time{
+    font-weight: bold;
+}
+
+.ingredients li{
+    list-style: square;
+}
+
+.time p{
+    color: grey;
+}
+
+.external-link{
+    color: Seagreen;
+}
+
+h1{
+    font-family: 'Times New Roman';
+}
+
+h2{
+    font-family: 'Times New Roman';
+}
+
+p{
+    font-family: 'Times New Roman';
+}
+
+li{
+    font-family: 'Times New Roman';
+}

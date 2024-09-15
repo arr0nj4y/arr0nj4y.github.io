@@ -1,0 +1,133 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: none;
+    font-family: Arial;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 35px;
+    color: black;
+}
+
+
+.headerimage {
+    width: 100%;            
+    height: auto;          
+    display: block;        
+    margin-bottom: 0;
+}
+
+#slide-1 {
+    width: 100%;            
+    height: 550px;          
+    padding: 0;
+    border-radius: 0.9em;
+    margin-left: 0;         
+    margin-right: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);  
+    box-sizing: border-box;
+    margin-bottom: 0;
+    position: relative;   
+}
+
+.header-text {
+    position: absolute;     
+    margin-left: 265px;
+    top: 25%;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;            
+}
+
+.header-text p {
+    text-decoration: underline;
+    font-size: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section1{
+    margin-top: 25px;
+    padding: 25px;
+    margin: 30px;
+}
+.intro1{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.intro1 p{
+    font-family: 'Arial', sans-serif; 
+    font-size: 20px;
+}
+
+.intro1 h3{
+    font-size: 35px;
+    font-family: 'Arial', sans-serif; 
+}
+
+.related-contents{
+    width: 100%;
+    padding: 20px;
+    text-align: center;            
+}
+
+.recent-activities h4{
+    font-family: 'Arial', sans-serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.recent-activities ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;               
+    justify-content: center;     
+    flex-wrap: wrap;             
+}
+
+.recent-activities ul li{
+    margin: 15px;             
+    text-align: center;        
+}
+
+
+.image-container{
+    background-color: #f0f0f0;  
+    border: 1px solid #ccc;      
+    border-radius: 8px;          
+    overflow: hidden;            
+    display: inline-block;      
+}
+
+.image-container img{
+    width: 350px;
+    height: 320px;
+    display: block;              
+    border-radius: 8px;         
+}
+
+.image-caption1, .image-caption2, .image-caption3{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;           
+}

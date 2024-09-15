@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: none;
+    font-family: Arial;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 35px;
+    color: black;
+}
+.intro a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    max-width: 350px;
+    float: right;
+    border: 3px;
+    border-radius: 10px;
+}
+.wrapper{
+    margin: 100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 62px;
+
+
+}
+.Welcome{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shortint{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descrip{
+    font-family: Arial;
+    font-size: 17px;
+
+
+}
+.Redirect{
+    font-family: Arial;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+body{
+    background: linear-gradient();
+    background-size: auto;
+}
+
+
+.bttn{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    background: #1e90f1;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: 100px;
+    margin-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+
+}
+.bttn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
