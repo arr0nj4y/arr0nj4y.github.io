@@ -1,77 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 10rem;
+  width: 100%;
+  padding: 20px 35px; 
+  background: transparent; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #f4f0ec;
     text-decoration: none;
+    font-weight: 700;
+    margin-left: 0 auto;
 }
-.navbar{
-    background-color: none;
-    font-family: Arial;
-    padding-right: 20px;
-    padding-left: 15px;
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #f4f0ec;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
 }
-.navdiv{
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    background: white;
+    height: 2px;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/9776659.jpg);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
-.logo a{
-    font-size: 27px;
-    font-weight: 600;
-    color: black;
-}
-li{
-    list-style: none;
-    display: inline-block;
-}
-li a{
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 35px;
-    color: black;
-}
-.intro a{
+
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 43, 43, 0.865);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-img{
-    max-width: 350px;
-    float: right;
-    border: 3px;
-    border-radius: 10px;
-}
-.wrapper{
-    margin: 100px auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    margin-bottom: 62px;
-
-
-}
-.Welcome{
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.shortint{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.descrip{
-    font-family: Arial;
-    font-size: 17px;
-
-
-}
-.Redirect{
-    font-family: Arial;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 100px;
-}
-body{
-    background: linear-gradient();
-    background-size: auto;
+    text-align: center;
+    color: #f4f0ec;
+    letter-spacing: 0.5px;
+    font-size: 5rem;
+    margin: 0; 
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    z-index: 1; 
 }
 
+.welcome {
+    margin: 120px; 
+    padding: 0;
+    position: absolute;
+    top: 20px;
+}
+
+.welcome h4 {
+    font-weight: 700;
+    font-style: italic;
+    position: relative;
+    margin: 0; 
+    padding: 0;
+}
+
+.welcome p{
+    margin: 120px;
+    margin-top: -75px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 0;
+
+}
+.welcome a{
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: -170px;
+    text-align: center;
+}
 
 .bttn{
     font-size: 25px;
