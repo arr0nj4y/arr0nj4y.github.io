@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./components/componentstyle.css">
     <link rel="stylesheet" href="./components/profile.css">
+    <link rel="stylesheet" href="./components/about.css">
+    <link rel="stylesheet" href="./components/featured.css">
     <link rel="stylesheet" href="utils.css">
+
     
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans
     @400,500,600,700&display=swap" rel="stylesheet">
@@ -30,7 +33,7 @@
             <li class="header__line">
             </li>
             <li>
-                <button class="header__sun">
+                <button id="theme-toggle" class="header__sun">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
                     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" 
@@ -41,7 +44,7 @@
                   </button>
             </li>
             <li>
-                <a class="header__linky btn" href="#">Link</a>
+                <a class="header__linky btn" href="#">Reach Out</a>
             </li>
         </ul>
         <button class="header__bars">
@@ -65,15 +68,92 @@
             Join me on my journey as I bring ideas to life through code!</p>
         <a class="hero__btn btn" href="#">Reach Out</a>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+
+    <section id="about" class="about container section">
+            <div class="about__content">
+              <h2 class="about__title">About</h2>
+              <p class="about__description">
+                Hi! I'm Arron, a <strong>Bachelor of Science in Information Technology (BSIT)</strong> student at the <strong>University 
+                    of the Immaculate Conception</strong>. I'm passionate about web development, coding, and exploring
+                    the latest tech trends. My academic journey has allowed me to dive deep into various programming 
+                    languages, design principles, and innovative solutions, all while preparing me for a future in the 
+                    ever-evolving world of technology.
+              </p>
+              <p class="about__description">
+                Beyond the classroom, I love diving into personal projects that allow me to experiment with web development, 
+                design, and even a bit of <strong>UI/UX</strong>.
+              </p>
+              <p class="about__description">
+                And also, I believe in these traits; critical thinking, creativity, and curiosity are essential in the fast-paced tech landscape.
+              </p>
+              <hr class="about__hr" />
+              <h3 class="about__subtitle">Learnings</h3>
+              <div class="about__ul-container">
+                <ul class="about__ul">
+                  <li class="about__list">JavaScript</li>
+                  <li class="about__list">CSS</li>
+                  <li class="about__list">HTML</li>
+                </ul>
+                <ul class="about__ul">
+                  <li class="about__list">Python</li>
+                  <li class="about__list">Java</li>
+                  <li class="about__list">TailwindCSS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="about__img-wrapper">
+            <img class="about__img" src="./images/DSC_0703 passport_061954.jpg" alt="Profile Picture 2.0"/>
+        </div>
+    </section>
+
+    <section class="projects container section">
+        <h3 class="project__subtitle">HTML Projects</h3>
+            <h2 class="project__title">Web Devs Introduction</h2>
+        <p class="project__description">Welcome to my collection of HTML projects! These projects reflect my 
+            journey as a web development enthusiast, where I've applied core HTML, CSS, and JavaScript 
+            principles to create responsive, user-friendly websites. Each project showcases my growth in coding, 
+            design, and functionality, from simple landing pages to more complex, interactive web applications. 
+            Take a look around and see how I've brought ideas to life through code!</p>
+        <div class="projects__info-container">   
+        <div>
+            <h3 class="project__label">Categories</h3>
+            <ul class="project__specific">
+                <a href="./healthrecipe/index.html"><li class="project__info">Healhty Recipes</li></a>
+                <a href="./html/fashionblog/index.html"><li class="project__info">Fashion Blog</li></a>
+                <a href="./html/fashionblog/Olivia Woodruff Portolio/index.html"><li class="project__info">Olivia Woodruff Portfolio</li></a>
+            </ul>
+        </div>
+
+
+        <div>
+            <h3 class="project__label">Language Used</h3>
+            <p class="project__info">CSS</p>
+            <p class="project__info">JavaScript</p>
+        </div>
+
+
+        <div>
+            <h3 class="project__label">Timeline</h3>
+            <p class="project__info">School Year 2024-2025</p>
+        </div>
+    </div> 
+
+    <div class="projects__img-container">
+    <div class="project__img-wraper">
+        <img src="https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?q=80&w=1492&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthy Recipes">
+    </div>
+
+    <div class="project__img-wraper">
+        <img src="https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fashion Blog">
+    </div>
+
+    <div class="project__img-wraper">
+        <img src="https://images.unsplash.com/photo-1522836924445-4478bdeb860c?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Olvia Woodruff Portfolio">
+    </div>
+    </div>
+    </section>
 </main>
 
-<footer>
-
-</footer>
-
+<script src="/main.js"></script>
 </body>
 </html>
