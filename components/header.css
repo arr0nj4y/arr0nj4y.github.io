@@ -30,7 +30,6 @@
     align-items: center;
     list-style: none;
     gap: 2em;
-    border: 1px solid red;
 }
 
 .header__link{
@@ -88,7 +87,3 @@
 
 /* 2xl */
 /*@media (min-width: 1536px){}*/
-
- 
-
-

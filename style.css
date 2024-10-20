@@ -39,6 +39,12 @@ body{
     color: var(--clr-light);
 }
 
+img, picture, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
 button{
     display: inline-block;
     padding: 0;
