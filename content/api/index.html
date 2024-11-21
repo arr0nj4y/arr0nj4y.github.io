@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Leaderboard - Easiest Meals</title>
+  <link rel="stylesheet" href="api.css">
+</head>
+<body>
+
+  <header>
+    <button class="return-button"><a href="../../index.html">Return to Portfolio</a></button>
+    <h1>Meal Leaderboard - Easiest Meals</h1>
+    <p>Meals sorted from easiest to hardest based on the number of ingredients:</p>
+  </header>
+
+  <div id="meal-leaderboard-container">
+    <table id="meal-leaderboard">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Meal</th>
+          <th>Ingredients</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="meal-details-container" class="hidden">
+    <div id="meal-details-content">
+    </div>
+    <button id="close-details">Close</button>
+  </div>
+
+  <script src="api.js"></script>
+</body>
+</html>

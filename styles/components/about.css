@@ -1,0 +1,187 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title{
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.about__description{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__hr{
+    border-color: var(--clr-slate800);
+}
+
+.about__sutitle{
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.about__ul-container{
+    display: flex;
+}
+
+.about__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.about__ul li {
+    display: inline-block;
+    top: 0.5em;
+    bottom: 2em;
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 3em; 
+    line-height: 2em; 
+}
+
+.about__ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.2em; 
+    width: 1.5em;
+    height: 1.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about__ul li[data-icon="javascript"]::before {
+    background-image: url('../../imgs/js.png');
+}
+
+.about__ul li[data-icon="python"]::before {
+    background-image: url('../../imgs/python.png');
+}
+
+.about__ul li[data-icon="java"]::before {
+    background-image: url('../../imgs/java.png');
+}
+
+/* MySQL Icon */
+.about__ul li[data-icon="mysql"]::before {
+    background-image: url('../../imgs/mysql.png');
+}
+
+
+/* xs */
+@media (min-width: 475px){
+    .about{
+        gap: 1.5rem;
+    }
+    
+    .about__content{
+        gap: 1.5rem;
+    }
+    
+    .about__title{
+        font-size: var(--size-3xl);
+    }
+    
+    .about__description{
+        font-size: var(--size-base);
+    }
+    
+    .about__sutitle{
+        font-size: var(--size-base);
+    }
+    
+    .about__list{
+        font-size: var(--size-base);
+    }
+}
+
+/* sm */
+@media (min-width: 640px){
+    .about__img-wrapper{
+        margin: 0 auto;
+    }
+    .about_img{
+        width: 28.6875rem;
+    }
+}
+
+/* md */
+/*@media (min-width: 768px){}*/
+
+/* Lg */
+@media (min-width: 1024px){
+    .about__content{
+        gap: 2rem;
+    }
+
+    .about{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about__title{
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description{
+        font-size: var(--size-lg);
+    }
+    
+    .about__sutitle{
+        font-size: var(--size-lg);
+    }
+    
+    .about__list{
+        font-size: var(--size-lg);
+    }
+}
+
+/* xL */
+@media (min-width: 1280px){
+    .about{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about__title{
+        font-size: var(--size-2xl);
+    }
+    
+    .about__description{
+        font-size: var(--size-xl);
+    }
+    
+    .about__sutitle{
+        font-size: var(--size-xl);
+    }
+    
+    .about__list{
+        font-size: var(--size-xl);
+    }
+
+    .about__img{
+        width: 30.75rem;
+    }
+}
+
+/* 2xL */
+/*@media (min-width: 1536px){}*/
